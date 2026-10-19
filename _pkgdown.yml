@@ -45,6 +45,7 @@ reference:
 - title: Date and time conversion
   contents:
   - create_iso8601
+  - iso8601_coercion
   - fmt_cmp
   - dtc_formats
   - problems

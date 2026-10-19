@@ -242,7 +242,9 @@ format_iso8601 <- function(m, .cutoff_2000 = 68L) {
 #' @param .warn Whether to warn about parsing failures.
 #'
 #' @return A vector of dates, times or date-times in [ISO
-#' 8601](https://en.wikipedia.org/wiki/ISO_8601) format
+#' 8601](https://en.wikipedia.org/wiki/ISO_8601) format. Complete dates and
+#'   date-times can be converted with [as.Date()], [as.POSIXct()], or
+#'   [as.POSIXlt()].
 #'
 #' @examples
 #' # Converting dates

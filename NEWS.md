@@ -1,3 +1,7 @@
+# sdtm.oak (development version)
+
+- `create_iso8601()` results can be converted with `as.Date()`, `as.POSIXct()`, and `as.POSIXlt()` (#139).
+
 # sdtm.oak V0.2.0
 
 - DM Domain: New functions `calc_min_max_date()` and `oak_calc_ref_dates()` to support DM domain programming.

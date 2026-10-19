@@ -42,7 +42,9 @@ interpretation of the formats.}
 \item{.warn}{Whether to warn about parsing failures.}
 }
 \value{
-A vector of dates, times or date-times in \href{https://en.wikipedia.org/wiki/ISO_8601}{ISO 8601} format
+A vector of dates, times or date-times in \href{https://en.wikipedia.org/wiki/ISO_8601}{ISO 8601} format. Complete dates and
+date-times can be converted with \code{\link[=as.Date]{as.Date()}}, \code{\link[=as.POSIXct]{as.POSIXct()}}, or
+\code{\link[=as.POSIXlt]{as.POSIXlt()}}.
 }
 \description{
 \code{\link[=create_iso8601]{create_iso8601()}} converts vectors of dates, times or date-times to \href{https://en.wikipedia.org/wiki/ISO_8601}{ISO 8601} format. Learn more in
